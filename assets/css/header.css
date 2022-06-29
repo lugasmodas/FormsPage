@@ -1,0 +1,14 @@
+header {
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+  padding: 20px 0;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}

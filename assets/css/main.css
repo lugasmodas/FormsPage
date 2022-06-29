@@ -1,0 +1,60 @@
+main {
+  margin: 130px auto 0;
+  background-color: #ddd;
+  width: 70%;
+  border-radius: 20px;
+}
+
+main form {
+  padding: 10px;
+}
+
+main label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+main fieldset {
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+
+main fieldset:nth-of-type(1) {
+  margin-top: 0px;
+}
+
+main legend {
+  margin-left: 35px;
+  padding: 0 15px;
+}
+
+main input {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+main option,
+main select,
+main input {
+  height: 35px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.dispInline {
+  display: inline;
+}
+
+.checkbox {
+  width: 25px;
+  vertical-align: middle;
+}
+
+#formsEscondido {
+  display: none;
+}
